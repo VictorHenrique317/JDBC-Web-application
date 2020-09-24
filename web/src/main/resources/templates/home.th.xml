@@ -1,0 +1,4 @@
+<thlogic>
+    <attr sel="#serviceLink" th:href="@{__${T(com.example.mvccontinuation.constants.Mappings).LOCATION}__}"/>
+    <attr sel="h2" th:text="${greeting}"/>
+</thlogic>

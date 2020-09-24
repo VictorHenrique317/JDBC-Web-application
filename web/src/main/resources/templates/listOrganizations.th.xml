@@ -1,0 +1,4 @@
+<thlogic>
+    <attr sel="h2" th:text="${greeting}"/>
+    <attr sel="article" th:replace="~{fragments/organizations_frag.html :: tableFragment}"/>
+</thlogic>

@@ -1,0 +1,4 @@
+<thlogic>
+    <attr sel="#greetingsHeader" th:text="${greeting}"/>
+    <attr sel="form" th:action="@{__${T(com.example.mvccontinuation.constants.Mappings).SERVICE}__}";
+</thlogic>

@@ -1,0 +1,12 @@
+<thlogic>
+    <attr sel="table" th:fragment="tableFragment"/>
+    <attr sel="caption" th:text="|${locationName} Organization Directory|"/>
+
+    <attr sel="#organizations" th:each="org : ${orgList}"/>
+    <attr sel="#id" th:text="${org.id}"/>
+    <attr sel="#companyName" th:text="${org.companyName}"/>
+    <attr sel="#yearOfIncorporation" th:text="${org.yearOfIncorporation}"/>
+    <attr sel="#postalCode" th:text="${org.postalCode}"/>
+    <attr sel="#employeeCount" th:text="${org.employeeCount}"/>
+    <attr sel="#slogan" th:text="${org.slogan}"/>
+</thlogic>
